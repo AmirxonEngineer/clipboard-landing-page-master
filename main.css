@@ -1,0 +1,65 @@
+@font-face {
+  font-family: BaiJamjuree-Regular ;
+  src: url(./fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf);
+}
+@font-face {
+  font-family: BaiJamjuree-SemiBold;
+  src: url(./fonts/Bai_Jamjuree/BaiJamjuree-SemiBold.ttf);
+}
+
+@font-face {
+  font-family:BaiJamjuree-ExtraLight ;
+  src: url(./fonts/Bai_Jamjuree/BaiJamjuree-ExtraLight.ttf);
+}
+
+
+.container {
+  margin: 0 auto;
+}
+/* header*/
+.main-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -400px;
+}
+
+.main-header__title {
+  font-size: 70px;
+  font-family: BaiJamjuree-SemiBold;
+  font-weight: 600;
+}
+
+.main-header__subtitle {
+  font-family: BaiJamjuree-Regular;
+  color: hsl(210, 10%, 33%);
+}
+
+.main-header__background img {
+  width: 100%;
+}
+
+.main-header__logo img {
+  width: 100px;
+}
+
+.main-header__buttons {
+margin: 100px;
+}
+
+/* SNIPPETS SECTION */
+
+.snippets-section__info {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.snippets-section__items {
+  display: flex;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
