@@ -31,6 +31,9 @@
 }
 
 .main-header__subtitle {
+  font-size: 30px;
+  padding: 0 580px;
+  margin: 5px;
   font-family: BaiJamjuree-Regular;
   color: hsl(210, 10%, 33%);
 }
@@ -40,14 +43,42 @@
 }
 
 .main-header__logo img {
-  width: 100px;
+  width: 150px;
 }
 
 .main-header__buttons {
-margin: 100px;
+margin: 50px;
+}
+
+.main-header__button-green {
+font-size: 25px;
+font-family:BaiJamjuree-Regular ;
+font-weight: 500;
+padding: 25px 60px;
+margin: 20px;
+border-radius: 50px;
+border: none;
+color: white;
+background-color: hsl(171, 66%, 44%) ;
+}
+
+
+.main-header__button-bluee {
+font-size: 25px;
+font-family:BaiJamjuree-Regular ;
+font-weight: 500;
+padding: 25px 60px;
+margin: 20px;
+border-radius: 50px;
+border: none;
+color: white;
+background-color: hsl(233, 100%, 69%);
 }
 
 /* SNIPPETS SECTION */
+.snippets-section {
+margin-top: 80px;
+}
 
 .snippets-section__info {
 display: flex;
@@ -57,8 +88,176 @@ text-align: center;
 
 .snippets-section__items {
   display: flex;
+  justify-content: center;
+  margin-top: 70px;
 }
 
+.snippets-section__items img {
+width: 900px;
+margin-left: -500px;
+}
+
+.snippets-section__item {
+margin-top: 100px;  
+margin-left: 200px;
+}
+
+.snippets-section__title {
+  font-size: 50px;
+  font-family: BaiJamjuree-SemiBold;
+  font-weight: 600;
+}
+
+.snippets-section__subtitle {
+  font-size: 30px;
+  padding: 0 550px;
+  margin: 5px;
+  font-family: BaiJamjuree-Regular;
+  color: hsl(210, 10%, 33%);
+}
+
+.title {
+  font-size: 30px;
+  font-family: BaiJamjuree-SemiBold;
+  font-weight: 600;
+}
+
+.subtitle {
+font-size: 25px;
+font-weight: lighter;
+width: 500px;
+margin: 10px;
+font-family: BaiJamjuree-Regular;
+color: hsl(210, 10%, 33%);
+}
+
+
+/* CLIPBOARD SECTION*/
+.clipboard-section {
+display: flex;
+text-align: center;
+flex-direction: column;
+margin-top: 100px;
+}
+
+.clipboard-section__title {
+  font-size: 50px;
+  font-family: BaiJamjuree-SemiBold;
+  font-weight: 600;
+}
+
+.clipboard-section__subtitle {
+  font-size: 30px;
+  padding: 0 550px;
+  margin: 5px;
+  font-family: BaiJamjuree-Regular;
+  color: hsl(210, 10%, 33%);  
+}
+
+.clipboard-section img {
+  margin-top: 100px;
+  margin-left: 550px;
+  width: 53%;
+}
+
+/* WORKFLOW SECTION */
+
+.workflow-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.workflow-section__title {
+  font-size: 50px;
+  font-family: BaiJamjuree-SemiBold;
+  font-weight: 600;
+}
+
+.workflow-section__subtitle {
+  font-size: 25px;
+  margin: 5px;
+  font-family: BaiJamjuree-Regular;
+  color: hsl(210, 10%, 33%); 
+}
+
+.workflow-section__items {
+display: inline-block;
+margin-top: 100px;
+}
+
+.workflow-section__item {
+display: inline-block;
+width: 30%;
+margin-right: 1%;
+text-align: center;
+box-sizing: border-box;
+}
+
+.workflow-section__item img {
+  width: 50px;
+}
+
+.workflow-section__item-title {
+  font-size: 30px;
+  font-family: BaiJamjuree-SemiBold;
+  font-weight: 600;
+
+}
+
+.workflow-section__item-subtitle {
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: BaiJamjuree-Regular;
+  color: hsl(210, 10%, 33%);   
+}
+
+.logos {
+  display: inline-block;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.logos img {
+width: 200px;
+margin-right: 90px;
+margin-left: 80px;
+
+}
+
+/*  CLIPBOARD FOR SECTION*/
+
+.clipboardfor-section {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.clipboardfor-section__title {
+font-size: 50px;
+font-family: BaiJamjuree-SemiBold;
+font-weight: 600;
+}
+
+.clipboardfor-section__subtitle {
+font-size: 30px;
+padding: 0 550px;
+margin: 5px;
+font-family: BaiJamjuree-Regular;
+color: hsl(210, 10%, 33%);    
+}
+
+.clipboardfor-buttons {
+margin-top: 50px;
+margin-bottom: 100px;
+}
+
+/* FOOTER */
+
+.footer-section {
+height: 250px;
+background-color: hsl(201, 11%, 66%);
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
