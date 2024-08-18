@@ -12,6 +12,16 @@
   src: url(./fonts/Bai_Jamjuree/BaiJamjuree-ExtraLight.ttf);
 }
 
+@font-face {
+  font-family:BaiJamjuree-Light ;
+  src: url(./fonts/Bai_Jamjuree/BaiJamjuree-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family:BaiJamjuree-Medium ;
+  src: url(./fonts/Bai_Jamjuree/BaiJamjuree-ExtraLight.ttf);
+}
+
 
 .container {
   margin: 0 auto;
@@ -25,15 +35,15 @@
 }
 
 .main-header__title {
-  font-size: 40px;
+  font-size: 50px;
   font-family: BaiJamjuree-SemiBold;
   font-weight: 600;
 }
 
 .main-header__subtitle {
-  font-size: 27px;
-  padding: 0 250px;
-  margin: 5px;
+  font-size: 23px;
+  padding: 0 350px;
+  margin: 1px;
   font-family: BaiJamjuree-Regular;
   color: hsl(210, 10%, 33%);
 }
@@ -47,14 +57,14 @@
 }
 
 .main-header__buttons {
-margin: 50px;
+margin: 30px;
 }
 
 .main-header__button-green {
 font-size: 20px;
 font-family:BaiJamjuree-Regular ;
 font-weight: 500;
-padding: 25px 40px;
+padding: 15px 35px;
 margin: 20px;
 border-radius: 50px;
 border: none;
@@ -67,7 +77,7 @@ background-color: hsl(171, 66%, 44%) ;
 font-size: 20px;
 font-family:BaiJamjuree-Regular ;
 font-weight: 500;
-padding: 25px 40px;
+padding: 15px 35px;
 margin: 20px;
 border-radius: 50px;
 border: none;
@@ -93,8 +103,8 @@ text-align: center;
 }
 
 .snippets-section__items img {
-width: 650px;
-margin-left: -400px;
+width: 50%;
+margin-left: -450px;
 }
 
 .snippets-section__item {
@@ -103,21 +113,21 @@ margin-left: 100px;
 }
 
 .snippets-section__title {
-  font-size: 50px;
+  font-size: 40px;
   font-family: BaiJamjuree-SemiBold;
   font-weight: 600;
 }
 
 .snippets-section__subtitle {
-  font-size: 25px;
-  padding: 0 120px;
+  font-size: 20px;
+  padding: 0 350px;
   margin: 5px;
   font-family: BaiJamjuree-Regular;
   color: hsl(210, 10%, 33%);
 }
 
 .title {
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 50px;
   font-family: BaiJamjuree-SemiBold;
   font-weight: 600;
@@ -141,14 +151,14 @@ margin-top: 100px;
 }
 
 .clipboard-section__title {
-  font-size: 50px;
+  font-size: 40px;
   font-family: BaiJamjuree-SemiBold;
   font-weight: 600;
 }
 
 .clipboard-section__subtitle {
-  font-size: 30px;
-  padding: 0 180px;
+  font-size: 20px;
+  padding: 0 350px;
   margin: 5px;
   font-family: BaiJamjuree-Regular;
   color: hsl(210, 10%, 33%);  
@@ -157,7 +167,7 @@ margin-top: 100px;
 .clipboard-section img {
   margin-top: 100px;
   margin-left: 250px;
-  width: 53%;
+  width: 65%;
 }
 
 /* WORKFLOW SECTION */
@@ -169,13 +179,13 @@ margin-top: 100px;
 }
 
 .workflow-section__title {
-  font-size: 50px;
+  font-size: 40px;
   font-family: BaiJamjuree-SemiBold;
   font-weight: 600;
 }
 
 .workflow-section__subtitle {
-  font-size: 25px;
+  font-size: 20px;
   margin: 5px;
   font-family: BaiJamjuree-Regular;
   color: hsl(210, 10%, 33%); 
@@ -189,25 +199,25 @@ margin-top: 100px;
 .workflow-section__item {
 display: inline-block;
 width: 30%;
-margin-right: 1%;
 text-align: center;
-box-sizing: border-box;
+box-sizing:border-box ;
 }
 
 .workflow-section__item img {
-  width: 50px;
+  width: 40px;
 }
 
 .workflow-section__item-title {
-  font-size: 30px;
+  font-size: 25px;
   font-family: BaiJamjuree-SemiBold;
   font-weight: 600;
 
 }
 
 .workflow-section__item-subtitle {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: lighter;
+  margin: 0 20px;
   font-family: BaiJamjuree-Regular;
   color: hsl(210, 10%, 33%);   
 }
@@ -219,9 +229,9 @@ box-sizing: border-box;
 }
 
 .logos img {
-width: 200px;
-margin-right: 90px;
-margin-left: 80px;
+width: 10%;
+margin-right: 80px;
+margin-left: 50px;
 
 }
 
@@ -234,14 +244,14 @@ text-align: center;
 }
 
 .clipboardfor-section__title {
-font-size: 50px;
+font-size: 40px;
 font-family: BaiJamjuree-SemiBold;
 font-weight: 600;
 }
 
 .clipboardfor-section__subtitle {
-font-size: 30px;
-padding: 0 550px;
+font-size: 20px;
+padding: 0 350px;
 margin: 5px;
 font-family: BaiJamjuree-Regular;
 color: hsl(210, 10%, 33%);    
@@ -255,19 +265,19 @@ margin-bottom: 100px;
 /* FOOTER */
 
 .footer-section {
-height: 250px;
-background-color: hsl(201, 11%, 66%);
+height: 200px;
+background-color:  hsl(201, 11%, 66%);
 }
 
 .footer-logo {
 display: inline-block;
-margin-top: 100px;
-margin-left: 300px;
+margin-top: 50px;
+margin-left: 70px;
 }
 
 .footer-logo img {
 display: inline-block;
-width: 100px;
+width: 60px;
 }
 
 
