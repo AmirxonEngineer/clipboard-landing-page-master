@@ -21,18 +21,18 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: -400px;
+  margin-top: -200px;
 }
 
 .main-header__title {
-  font-size: 70px;
+  font-size: 40px;
   font-family: BaiJamjuree-SemiBold;
   font-weight: 600;
 }
 
 .main-header__subtitle {
-  font-size: 30px;
-  padding: 0 580px;
+  font-size: 27px;
+  padding: 0 250px;
   margin: 5px;
   font-family: BaiJamjuree-Regular;
   color: hsl(210, 10%, 33%);
@@ -43,7 +43,7 @@
 }
 
 .main-header__logo img {
-  width: 150px;
+  width: 110px;
 }
 
 .main-header__buttons {
@@ -51,10 +51,10 @@ margin: 50px;
 }
 
 .main-header__button-green {
-font-size: 25px;
+font-size: 20px;
 font-family:BaiJamjuree-Regular ;
 font-weight: 500;
-padding: 25px 60px;
+padding: 25px 40px;
 margin: 20px;
 border-radius: 50px;
 border: none;
@@ -64,10 +64,10 @@ background-color: hsl(171, 66%, 44%) ;
 
 
 .main-header__button-bluee {
-font-size: 25px;
+font-size: 20px;
 font-family:BaiJamjuree-Regular ;
 font-weight: 500;
-padding: 25px 60px;
+padding: 25px 40px;
 margin: 20px;
 border-radius: 50px;
 border: none;
@@ -93,13 +93,13 @@ text-align: center;
 }
 
 .snippets-section__items img {
-width: 900px;
-margin-left: -500px;
+width: 650px;
+margin-left: -400px;
 }
 
 .snippets-section__item {
-margin-top: 100px;  
-margin-left: 200px;
+margin-top: 10px;  
+margin-left: 100px;
 }
 
 .snippets-section__title {
@@ -109,24 +109,24 @@ margin-left: 200px;
 }
 
 .snippets-section__subtitle {
-  font-size: 30px;
-  padding: 0 550px;
+  font-size: 25px;
+  padding: 0 120px;
   margin: 5px;
   font-family: BaiJamjuree-Regular;
   color: hsl(210, 10%, 33%);
 }
 
 .title {
-  font-size: 30px;
+  font-size: 20px;
+  margin-top: 50px;
   font-family: BaiJamjuree-SemiBold;
   font-weight: 600;
 }
 
 .subtitle {
-font-size: 25px;
+font-size: 15px;
 font-weight: lighter;
-width: 500px;
-margin: 10px;
+width: 300px;
 font-family: BaiJamjuree-Regular;
 color: hsl(210, 10%, 33%);
 }
@@ -148,7 +148,7 @@ margin-top: 100px;
 
 .clipboard-section__subtitle {
   font-size: 30px;
-  padding: 0 550px;
+  padding: 0 180px;
   margin: 5px;
   font-family: BaiJamjuree-Regular;
   color: hsl(210, 10%, 33%);  
@@ -156,7 +156,7 @@ margin-top: 100px;
 
 .clipboard-section img {
   margin-top: 100px;
-  margin-left: 550px;
+  margin-left: 250px;
   width: 53%;
 }
 
@@ -258,6 +258,20 @@ margin-bottom: 100px;
 height: 250px;
 background-color: hsl(201, 11%, 66%);
 }
+
+.footer-logo {
+display: inline-block;
+margin-top: 100px;
+margin-left: 300px;
+}
+
+.footer-logo img {
+display: inline-block;
+width: 100px;
+}
+
+
+
 
 
 .attribution { font-size: 11px; text-align: center; }
